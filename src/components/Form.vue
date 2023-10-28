@@ -16,11 +16,11 @@ const handleSubmit = (e) => {
 
     <div class="flex flex-col">
       <label>Title</label>
-      <input class="p-1 rounded outline-none text-black" name="title" type="text">
+      <input required class="p-1 rounded outline-none text-black" name="title" type="text">
     </div>
     <div class="flex flex-col">
       <label>Description</label>
-      <textarea class="p-1 rounded outline-none text-black" name="description" type="password" />
+      <textarea required class="p-1 rounded outline-none text-black" name="description" type="password" />
     </div>
 
     <button class="bg-blue-600 rounded py-2 mt-4 px-5 hover:bg-blue-800">Add</button>
